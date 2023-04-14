@@ -1,0 +1,160 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .menu-area nav ul li a{
+    margin-left: 10px;
+    font-size: 15px;
+}
+.hero_text h1 {
+    font-size: 48px;
+}
+
+.defi-area .row {
+    flex-direction: column-reverse;
+}
+
+.defi-img {
+    text-align: center;
+}
+
+.defi-text {
+    margin-inline: auto;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+.raise_wrp ul li {
+    text-align: center;
+}
+
+.raise_wrp {
+    margin-top: 50px;
+}
+
+.brand-Logo_wrp ul {
+    justify-content: center;
+}
+
+.brand-Logo_wrp ul li {
+    margin: 5px 20px 25px;
+}
+
+.brand-Logo_wrp h3 {
+    text-align: center;
+}
+
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    .menu-area nav ul li a{
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    .hero_text h1 {
+        font-size: 40px;
+    }
+    
+    .defi-area .row {
+        flex-direction: column-reverse;
+    }
+    
+    .defi-img {
+        text-align: center;
+    }
+    
+    .defi-text {
+        margin-inline: auto;
+        margin-top: 50px;
+    }
+    
+    h1 {
+        font-size: 32px;
+    }
+    
+    .raise_wrp ul li {
+        text-align: center;
+    }
+    
+    .raise_wrp {
+        margin-top: 50px;
+    }
+    
+    .brand-Logo_wrp ul {
+        justify-content: center;
+    }
+    
+    .brand-Logo_wrp ul li {
+        margin: 5px 20px 25px;
+    }
+    
+    .brand-Logo_wrp h3 {
+        text-align: center;
+    }
+    .hero-area {
+        padding-top: 50px;
+    }
+    
+    .accordion-button {
+        font-size: 20px;
+        align-items: start;
+    }
+    
+    .accordion-body p {
+        font-size: 16px;
+    }
+    
+    .partner_text ul {
+        margin-top: 50px;
+    }
+    
+    .protocol_logo ul li {
+        margin: 0 4px;
+    }
+    
+    .protocol_logo {
+        margin-top: 50px;
+    }
+
+.protocol_logo a {
+    display: block;
+    width: 65px;
+}
+    
+    .sec_padding {
+        padding: 80px 0;
+    }
+    
+    .raise-Area {
+        padding-bottom: 0;
+    }
+    
+    .contact-area {
+        padding: 50px 0 110px;
+    }
+ 
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
